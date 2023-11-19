@@ -24,7 +24,8 @@ server <- function(input, output) {
 
   # display the dataset, and the user could sort the variables by clicking the heading of table
   output$dataTabletry <- DT::renderDataTable({
-    dataToDisplay()
+    dataToDisplay() %>%
+      filter(Year >= input$yearRange[1] & Year <= input$yearRange[2])
   }, options = list(ordering = TRUE)) # Enable column-based ordering
   
   # displaying the total alcohol consumption of selected year range
