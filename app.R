@@ -2,8 +2,9 @@ library(shiny)
 library(tidyverse)
 library(DT)
 
+#bcl <- read.csv("https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Alcohol%20consumption%20in%20USA%20since%201850%20—%20NIAAA/Alcohol%20consumption%20in%20USA%20since%201850%20—%20NIAAA.csv")
+bcl <- read.csv("./Alcohol consumption in USA since 1850 — NIAAA.csv")
 
-bcl <- read.csv("https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Alcohol%20consumption%20in%20USA%20since%201850%20—%20NIAAA/Alcohol%20consumption%20in%20USA%20since%201850%20—%20NIAAA.csv")
 ui <- fluidPage(
   titlePanel("Alcohol Consumption Statistics"),
   sidebarPanel(
