@@ -1,6 +1,6 @@
 # Alcohol Consumption Analysis App
 
-**Live Demo**: Explore the Alcohol Consumption Analysis App [here]([https://your_shinyapp_url](https://brandonliu2.shinyapps.io/assignment-b3-brandonliu2/)).
+**Live Demo**: Explore the Alcohol Consumption Analysis App [here](https://brandonliu2.shinyapps.io/assignment-b3-brandonliu2/).
 
 ## Overview
 
